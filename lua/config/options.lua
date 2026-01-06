@@ -7,4 +7,8 @@ vim.o.softtabstop = 4 -- Number of spaces inserted instead of a TAB character
 vim.o.shiftwidth = 4 -- Number of spaces inserted when indenting
 vim.g.autoformat = false
 vim.g.vimtex_view_method = "skim"
+vim.g.vimtex_indent_enabled = 1
+vim.g.vimtex_syntax_enabled = 1
+vim.g.vimtex_complete_enabled = 1
+vim.cmd("set wrap")
 
