@@ -10,5 +10,10 @@ vim.g.vimtex_view_method = "skim"
 vim.g.vimtex_indent_enabled = 1
 vim.g.vimtex_syntax_enabled = 1
 vim.g.vimtex_complete_enabled = 1
-vim.cmd("set wrap")
 
+vim.diagnostic.config({
+  virtual_text = true,
+  signs = true,
+  underline = true,
+  update_in_insert = false,
+})
