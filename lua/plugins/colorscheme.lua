@@ -1,12 +1,23 @@
 return {
-  -- Add the Gruvbox theme plugin
+    {
+        "catppuccin/nvim",
+        name = "catppuccin",
+        priority = 1000,
+        opts = {
+            flavour = "mocha",
+            transparent = true,
+            styles = {
+                sidebars = "transparent",
+                floats = "transparent",
+            }
+        }
+    },
   { "ellisonleao/gruvbox.nvim" },
 { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false },
-{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "moonfly",
+      colorscheme = "catppuccin",
     },
   },
 }

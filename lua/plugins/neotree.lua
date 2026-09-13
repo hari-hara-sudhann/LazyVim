@@ -11,7 +11,7 @@ return {
       hide_root_node = true,
       retain_hidden_root_indent = true,
       filesystem = {
-        group_empty_dirs = false,
+        group_empty_dirs = true,
         filtered_items = {
           show_hidden_count = false,
           never_show = {

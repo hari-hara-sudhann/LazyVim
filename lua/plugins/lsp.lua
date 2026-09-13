@@ -5,6 +5,7 @@ return {
       inlay_hints = {
         exclude = {
           "vue",
+          "java",
           "javascript",
           "javascriptreact",
           "typescript",
